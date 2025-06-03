@@ -1,0 +1,58 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Tenumah Collection</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="branding">
+        <img src="images/logo.png" alt="Logo" class="logo-icon" />
+        <div class="logo-text">The Tenumah Collection</div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Explore Premium Pre-Owned Vehicles</h1>
+        <p>American & Foreign Cars | Inventory Updated Regularly</p>
+      </div>
+    </section>
+
+    <section class="inventory">
+      <h2>Featured Vehicles</h2>
+      <div class="car-grid" id="inventoryGrid"></div>
+    </section>
+
+    <section class="search-section" id="search">
+      <h2>Search Our Inventory</h2>
+      <form id="searchForm">
+        <select id="yearSelect"><option value="">Year</option></select>
+        <select id="makeSelect"><option value="">Make</option></select>
+        <select id="modelSelect"><option value="">Model</option></select>
+        <button type="submit">Search</button>
+      </form>
+      <div class="car-grid" id="searchResults"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Tenumah Collection. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

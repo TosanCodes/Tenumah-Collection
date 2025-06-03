@@ -1,0 +1,10 @@
+AI COOKBOOK
+
+WEBSITE PROMPT
+	Generate an HTML/CSS/JS website for a EXMAPLE BUSINESS. CONTEXT WITH REQUIRMENTS.  Act as PERSONA. FORMATTING. TONE.
+   Formatting Prompt:
+	 - Format your response into separate documents organized by file type in the form of code snippets using the entire file.
+
+GITHUB LOGIN
+	TranqHead
+	Sergi0Oliva
